@@ -1,5 +1,6 @@
 # Mediatr-FluentValidation-StructureMap-ASP.NET-Core-Boilerplate
 *Requires ASP.NET CORE RC2* This boilerplate is helping someone who is trying to start up the CQRS project.
+It provide the bearer token authorization method, Logging in the file and database, validation in Mediatr handler.
 
 #Used Plugin
 1. OpenIDdict
