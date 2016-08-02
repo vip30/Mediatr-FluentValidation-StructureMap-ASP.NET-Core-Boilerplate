@@ -12,7 +12,7 @@ It provide the bearer token authorization method, Logging in the file and databa
 
 To run the boilerplate template app:
 
-		1. Download it and restore the package & Change the appsettings.json and nlog.config to your DB
+		1. Download it and restore the package & Change the appsettings.json and nlog.config to your DB & Run the SystemLog.sql
 		2. Run Add-Migration MyFirstMigration on the package manager console
 		3. Run Update-Database
 		4. Build the Project by pressing F5
