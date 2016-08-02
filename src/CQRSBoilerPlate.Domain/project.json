@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "AutoMapper.Extensions.Microsoft.DependencyInjection": "1.0.1-alpha",
+    "CQRSBoilerPlate.Entities": "1.0.0-*",
+    "FluentValidation": "6.4.0-beta3",
+    "MediatR.Extensions.Microsoft.DependencyInjection": "1.0.0",
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "1.0.0",
+    "Microsoft.EntityFrameworkCore": "1.0.0",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0",
+    "NETStandard.Library": "1.6.0",
+    "NLog": "4.4.0-betaV15",
+    "NLog.Extensions.Logging": "1.0.0-rtm-alpha4"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50"
+    }
+  }
+}

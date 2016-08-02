@@ -1,0 +1,5 @@
+bin
+node_modules
+/src/CQRSBoilerPlate.Entities/obj
+obj
+.vs
