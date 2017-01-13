@@ -5,12 +5,13 @@ namespace CQRSBoilerPlate.Entities.DBModels
 {
     public class PlanFeature
     {
-        [ForeignKey("Plan")]
+       
         public int PlanID { get; set; }
+        [ForeignKey("PlanID")]
         public Plan Plan { get; set; }
 
-        [ForeignKey("Feature")]
         public int FeatureID { get; set; }
+        [ForeignKey("FeatureID")]
         public Feature Feature { get; set; }
 
         public string Value { get; set; }
